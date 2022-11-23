@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+ <link rel="stylesheet" href="style2.css">
+</head>
+ 
+<body>
+  <h1 align="center">CALCULATOR</h1>
+ <script>
+ function calculate(res){
+ form1.display.value=form1.display.value+res;
+ 
+ }
+ </script>
+ <div class="container">
+ <form name="form1">
+ <div class="displayRes">
+ <input type="text" name="display" />
+ </div>
+ <div class="buttons">
+   <div class="fm1">
+ <input type="button" name="b7" value="7" onClick="calculate(b7.value)">
+   <input type="button" name="b8" value="8" onClick="calculate(b8.value)">
+   <input type="button" name="b9" value="9" onClick="calculate(b9.value)">
+   <input type="button" name="add" value="+" onClick="calculate(add.value)">
+ </div>
+ 
+ <div class="fm1">
+ <input type="button" name="b4" value="4" onClick="calculate(b4.value)">
+   <input type="button" name="b5" value="5" onClick="calculate(b5.value)">
+   <input type="button" name="b6" value="6" onClick="calculate(b6.value)">
+   <input type="button" name="sub" value="-" onClick="calculate(sub.value)">
+ </div>
+ 
+ <div class="fm1">
+ <input type="button" name="b1" value="1" onClick="calculate(b1.value)">
+   <input type="button" name="b2" value="2" onClick="calculate(b2.value)">
+   <input type="button" name="b3" value="3" onClick="calculate(b3.value)">
+   <input type="button" name="mul" value="*" onClick="calculate(mul.value)">
+ </div>
+ 
+ <div class="fm1">
+ <input type="button" name="b0" value="0" onClick="calculate(b0.value)">
+   <input type="button" name="pnt" value="." onClick="calculate(pnt.value)">
+   <input type="button" name="div" value="/" onClick="calculate(div.value)">
+   <input type="button" class="red" value="=" onClick="display.value=eval(display.value)">
+ </div>
+ </div>
+ 
+ </form>
+ </div>
+</body>
+ 
+</html>
