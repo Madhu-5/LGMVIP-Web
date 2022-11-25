@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    height: 100%;
+}
+
+.box {
+    background-color:rgb(99, 205, 99);
+}
+
+.table-box {
+    background-color: #7d3131;
+}
+
+.form-box{
+    width: 46%;
+    border-right: 5px solid rgb(187, 158, 190);
+    text-align: center;
+    height: 700px;
+    background-color:hotpink;
+}
+.form-box h1{
+    padding: 0px 10px;
+    font-size: 45px;
+
+}
+nav{
+    text-align: center;
+    font-size: 200%;
+    height: 70px;
+    background-color: skyblue;
+    color: black;  
+}
+
+nav h1 {
+    display: block;
+    padding: 8px;
+   
+}
+
+.Form{
+    margin: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 500px;
+    width: 86%;
+    text-align: center;
+}
+
+#nmDiv{
+    margin-top:20px;
+    
+}
+input[type="text" ]
+{
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 70%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.input{
+    font-size: 25px;
+    color:#000000;
+    font-weight:800;
+    margin-left: -180px;
+    margin-top:20px;
+    
+}
+.inputGen{
+    font-size: 25px;
+    color:#000000;
+    font-weight:700;
+    margin-left: -180px;
+    margin-top:20px;
+    
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 4%;
+    height: 20px;
+    margin-left: 24px;
+}
+#submit{
+    width: 150px;
+    height: 50px;
+    font-size: 35px;
+    background-color: black;
+    color: whitesmoke;
+    box-sizing: 0 2px 2px 0 rgba(0,0,0,0.5);
+    margin-top: 80px;
+    border-radius: 25px;
+    margin-left: -20%;
+    cursor: pointer;
+    
+}
+
+
+.table{
+    position: fixed;
+    top: 8.5%;
+    right: 1%;
+    width:52%;
+    margin-top: 2px;
+    margin-left: 50%;
+    margin-top: 2px;
+    padding: 4px;
+    float:center;
+    text-align:center;
+    background: rgb(239, 236, 236);
+    color: black;
+    border:2px solid black;
+    border-radius: 10px;
+}
+table, th,td{
+    width:100%;
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+th {
+    width:100%;
+    background: #a85d9b;
+    color: rgb(17, 10, 10);
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+#display tr:nth-child(even){background-color: #e6e6e6;}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style1.css" />
+  <title> Form</title>
+</head>
+
+<body>
+  <nav>
+    <h1><u>Regestration Form</u></h1>
+  </nav>
+
+  <div class="box">
+    <div class="form-box">
+      <h1>Form</h1>
+      <div class="Form">
+        <div id="nmDiv" class="input">
+          NAME: <input  id="name" type="text" placeholder="Enter Your Name..." />
+        </div>
+        <div id="fields" class="input">
+          EMAIL: <input id="email" type="text" placeholder="Enter Email Id..." />
+        </div>
+        <div id="fields" class="input">
+          OCCUPATION: <input id="age" type="text" placeholder="Enter Occupation.." />
+        </div>
+        <div id="fields" class="input">
+          AREA: <input id="city" type="text" placeholder="Enter Your City..." />
+        </div>
+        <div id="fields" class="input">
+          PHONE: <input id="phone" type="text" placeholder="Enter Phone No...." />
+        </div>
+        <div id="fields" class="inputGen">
+          GENDER:<input type="radio" id="M" name="gender" value="male"> Male
+          <input type="radio" id="F" name="gender" value="female"> Female
+        </div>
+
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+
+    <div class="table-box">
+      <div class="table">
+        <table id="display">
+          <h1>Enrolled Details</h1>
+          <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Occupation</th>
+            <th>Email</th>
+            <th>Area</th>
+            <th>Phone</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="main1.js"></script>
+</body>
+
+</html>
